@@ -1,0 +1,20 @@
+$color-border: #E3E3E3;
+
+.l-listchatcurrent{
+    border: 1px solid $color-border;
+    flex:1
+}
+.l-listchatcurrent__wrap{
+    height: calc(100vh - 293px);
+    overflow: scroll;
+
+
+}
+.l-listchatcurrent__wrap::-webkit-scrollbar {
+    display: none;
+  }
+.c-chatitem{
+    padding-bottom: 75px;
+}
+
+  

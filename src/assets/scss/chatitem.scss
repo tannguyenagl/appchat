@@ -1,0 +1,63 @@
+.c-chatitem__linetite{
+    margin-top: 14px;
+    text-align: center;
+    margin-bottom: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.c-chatitem__title{
+    color: #545D67;
+    font-size: 14px;
+    font-size: 400;
+    font-family: 'Segoe UI', sans-serif
+}
+.c-chatitem__line{
+    width: calc((100% - 140px)/2);
+    height: 1px;
+    background-color: #E3E3E3;
+}
+.c-chatitem__item{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 25px;
+}
+
+
+.c-chatitem__item-avatar{ 
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.c-chatitem__item-clock{
+    margin-left: 15px;
+    font-size: 12px;
+    font-weight: 400 ;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.c-chatitem__item-name{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Raleway,sans-serif;
+    color:#535E6A;
+    margin-bottom: 10px;
+}
+
+.c-chatitem__item-messagedetail{
+    color: #545D67;
+    font-size: 14;
+    font-size: 500;
+    font-family: Raleway,sans-serif;
+
+}
+
+.c-write{
+    height: 151px;
+}

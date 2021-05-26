@@ -1,0 +1,68 @@
+.c-frienditem{
+    display: flex;
+    width: 260px;
+    height: 60px;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    padding: 10px;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.c-frienditem__section1{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.c-frienditem__section2-name{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Raleway,sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+
+
+}
+
+.frienditem__isActive{
+    color: #0084FF;
+    background-color: #E6F3FF;
+}
+.c-frienditem__section2-ring{
+    display: none;
+}
+
+.frienditem__isActive .c-frienditem__section2-ring{
+    display: inline-block;
+}
+
+.c-frienditem__section2-minimessage{
+    font-family: Raleway,sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14;
+    font-size: 500;
+    width: 190px;
+    padding-top: 5px;
+}
+
+.c-frienditem__section2-sortmessage{
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+
+} 
+
+.c-frienditem__section2s-times{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}

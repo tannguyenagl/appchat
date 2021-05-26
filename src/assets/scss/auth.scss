@@ -1,0 +1,38 @@
+$color-border: #E3E3E3;
+
+.l-auth {
+  width:100%;
+  height:100vh;
+  position: relative;
+
+}
+.c-auth{
+  width: 400px;
+  border: 1px solid $color-border;
+  border-radius: 15px;
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 30px 30px 30px;
+}
+
+.c-auth__title{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Raleway,sans-serif;
+  color: #54667B;
+  padding-bottom: 15px;
+  border-bottom: solid 1px  $color-border;
+  width: 340px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.c-auth__separate{
+  margin-top:20px ;
+  width: 100%;
+}
+
+
+

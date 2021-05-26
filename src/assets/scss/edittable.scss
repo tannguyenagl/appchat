@@ -1,0 +1,126 @@
+$color-border: #E3E3E3;
+
+.tool__list {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    padding: 0;
+    margin-left: 43px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .tool__btn {
+    display: block;
+    border: none;
+    padding: 0.5rem;
+    font-size: 20px;
+    background-color: white;
+  }
+  .c-inputFile{
+    position: relative;
+    margin-top: 60px;
+  }
+  .inputFile__fileLoading{
+    display: flex;
+    position: absolute;
+    top:-80px;
+    left: 30px;
+    background-color: white;
+  
+
+
+  }
+  .inputFile__itemFile{
+    width: 180px;
+    height: 70px;
+    border: $color-border 1px solid;
+    border-radius: 7px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+
+  }
+  .inputFile__imageFile{
+    width: 27px;
+    height: 36px;
+    margin: 17px 20px;
+
+  }
+  .inputFile__filename{
+    font-family: Raleway,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  .inputFile__datafile{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  #c-content {
+    display: block;
+    width: calc((100% - 65px));
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    height: 46px;
+    border: $color-border 1px solid;
+    margin: 30px;
+    margin-bottom: 14px;
+    overflow: scroll;
+
+
+  }
+  #c-content:empty:before {
+    content: attr(data-placeholder);
+    color: #545D67;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Raleway,sans-serif;
+}
+  #c-content:focus {
+    outline: none;
+  }
+  #c-content::-webkit-scrollbar {
+    display: none;
+  } 
+ 
+  .under__content{
+      display: flex;
+      align-items: center;
+      justify-content: space-between
+  }
+.toollist__item1{
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+    width: 142px;
+}
+
+.toollist__inputFile{
+    width: 21px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.toollist__send{
+    width: 100px;
+    height: 35px;
+    background-color: #0084FF;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0,132,255,1);
+-moz-box-shadow: 0px 3px 6px 0px rgba(0,132,255,1);
+box-shadow: 0px 3px 6px 0px rgba(0,132,255,1);
+}
+
+.toollist__inputfileDefault{
+  display: none;
+}

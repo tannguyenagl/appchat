@@ -1,0 +1,25 @@
+$color-border: #E3E3E3;
+
+.l-listfriends{
+    width: 280px;
+    border: $color-border 1px solid;
+    border-right:none ;
+    padding-top: 15px;
+    padding-left: 10px;
+    height: calc(100vh - 80px);
+
+    overflow-y: scroll;
+
+
+}
+.l-listfriends::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+
+
+
+
+
